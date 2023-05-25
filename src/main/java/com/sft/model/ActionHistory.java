@@ -8,12 +8,14 @@ import com.jmoordb.core.annotation.Column;
 import com.jmoordb.core.annotation.DocumentEmbeddable;
 import java.util.Date;
 import java.util.Objects;
+import lombok.Builder;
 
 /**
  *
  * @author avbravo
  */
 @DocumentEmbeddable
+@Builder
 public class ActionHistory {
 
    @Column

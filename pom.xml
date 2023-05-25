@@ -121,11 +121,11 @@
         jmoordb-core
         -->
         
-        <dependency>
+<!--        <dependency>
             <groupId>com.github.avbravo</groupId>
             <artifactId>jmoordb-core</artifactId>
             <version>${version.jmoordbcore}</version>
-        </dependency>
+        </dependency>-->
       
   
       
@@ -148,8 +148,11 @@
         <!--
         
         -->
-
-     
+        <dependency>
+            <groupId>com.avbravo.jmoordb.core.processor</groupId>
+            <artifactId>jmoordb-core-incubator</artifactId>
+            <version>0.1</version>
+        </dependency>
     </dependencies>
     
     <build>
